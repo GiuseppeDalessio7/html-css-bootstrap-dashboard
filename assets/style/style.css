@@ -1,17 +1,17 @@
 #site {
-    height: 70px;
+    height: 85px;
 }
 
 #site_bottom {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 85px);
 }
 
 #sidebar {
-    width: 70px;
+    width: 85px;
 }
 
 #main_site {
-    width: calc(100vw - 70px);
+    width: calc(100vw - 85px);
 }
 
 .ms_logo{
