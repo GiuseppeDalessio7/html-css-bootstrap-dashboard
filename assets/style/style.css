@@ -13,3 +13,7 @@
 #main_site {
     width: calc(100vw - 70px);
 }
+
+.ms_logo{
+    width: 40px;
+}
