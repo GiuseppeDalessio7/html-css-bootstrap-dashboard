@@ -1,0 +1,15 @@
+#site {
+    height: 70px;
+}
+
+#site_bottom {
+    height: calc(100vh - 70px);
+}
+
+#sidebar {
+    width: 70px;
+}
+
+#main_site {
+    width: calc(100vw - 70px);
+}
