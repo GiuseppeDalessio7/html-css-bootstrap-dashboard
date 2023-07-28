@@ -171,7 +171,7 @@
                                 </button>
 
                                 <div
-                                    class="offcanvas offcanvas-end w-50 "
+                                    class="offcanvas offcanvas-end offcanvas-sm w-100 offcanvas-lg w-75 "
                                     tabindex="-1" id="offcanvasRight"
                                     aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
@@ -185,56 +185,79 @@
                                         </button>
                                        
                                     </div>
-                                    
-                                    <div class="mx-3">
-                                        <div class="row ">
-                                            <div class=" col-2 d-flex ">
-                                        <label for="exampleFormControlInput1 " class="form-label">Nome</label>
-                                        <input type="email" class="form-control " id="exampleFormControlInput1" >
-                                        <label for="exampleFormControlInput1" class="form-label">Cognome</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" >
-                                        
-                                        </div>
-                                        
+                                   
                                       
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">Email </label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1">
-                                            <label for="inputPassword5" class="form-label">Password</label>
-                                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-                                            <label for="exampleFormControlInput1" class="form-label">Email </label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1">
-                                            <label for="inputPassword5" class="form-label">Password</label>
-                                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-                                            <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" >
-                                            <label for="exampleFormControlInput1" class="form-label">Città</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" > 
-                                            <label for="exampleFormControlInput1" class="form-label">Stato</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="scegli..." >
-                                            <div class="mb-3 mt-3">
-                                            <label for="formFile" class="form-label">Foto</label>
-                                            <input class="form-control" type="file" id="formFile">
-                                            </div>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                              Seleziona per proseguire
-                                            </label>
-                                        </div>
-                                        <div class="mt-2">
-                                        <button type="button" class="btn btn-primary">Salva</button>
-                                        <button type="button" class="btn btn-warning">Svuota</button>
-                                        </div>
-
-                                         </div>
-
-                                        
+                                    <div class="row ">
                                        
-                                      
-                                      
+                                      </div>
+
+                                      <form class="row g-3 mx-2">
+                                        <div class="col-md-6">
+                                                <label class="form-label">Nome</label>
+                                                <input type="text" class="form-control">
+                                        </div>
+                                          <div class="col-md-6">
+                                            <label class="form-label">Cognome</label>
+                                                <input type="text" class="form-control">
+                                          </div>
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                          </div>
+
+                                        <div class="col-12">
+                                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                                          <input type="text" class="form-control" id="inputAddress">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">Città</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputState" class="form-label">Stato</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>scegli...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Foto</label>
+
+                                                <div class="input-group">
+                                                    <a class="input-group-text btn btn-light">
+                                                        Scegli file
+                                                    </a>
+                                                    <input type="input" class="form-control">
+                                                </div>
+                                                <div class="col-12 pt-3">
+                                                    
+                                                        <input type="checkbox"> Premi qui per continuare
+                                                    
+                                                </div>
+                                                <div class="col-12 pt-3">
+                                                   
+                                                        <input type="submit" class="btn btn-primary" value="Sign it">
+                                                        <input type="reset" class="btn btn-warning" value="reset">
+                                                      
+                                                </div>
+
+                                              </div>
+                                        </div>
+                                       
+                                      </form>
                                       
                   
                              </div>
