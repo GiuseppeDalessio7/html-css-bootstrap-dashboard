@@ -27,3 +27,34 @@
 .ms_bg_darkblu {
     background-color:  #051e34;
 }
+
+#sidebar {
+    background-image: url(../img/sidebar-bg.png);
+}
+
+/* #endregion #sidebar */
+
+/* #region #site_main */
+
+#main_site {
+    overflow-y: auto;
+}
+
+#main_site table img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    #sidebar {
+        width: 150px;
+    }
+
+    #main_site {
+        width: calc(100vw - 150px);
+    }
+}
