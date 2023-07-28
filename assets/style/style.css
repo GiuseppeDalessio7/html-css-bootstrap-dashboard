@@ -31,6 +31,17 @@
 .ms_bg_lighblu{
     background-color: #1a72e9;
 }
+.my_pill_blu{
+    background-color: #175bbb;
+}
+
+.my_pill_size{
+    font-size: 10px;
+}
+
+.my_white{
+    color: white;
+}
 
 #sidebar {
     background-image: url(../img/sidebar-bg.png);
