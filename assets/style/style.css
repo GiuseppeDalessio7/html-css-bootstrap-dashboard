@@ -28,6 +28,10 @@
     background-color:  #051e34;
 }
 
+.ms_bg_lighblu{
+    background-color: #1a72e9;
+}
+
 #sidebar {
     background-image: url(../img/sidebar-bg.png);
 }
