@@ -61,7 +61,16 @@
     border-radius: 50%;
 }
 
+.my_w_100 {
+    width: 100% !important;
+}
 
+@media screen and (min-width: 992px) {
+
+    .my_w_lg_50 {
+        width: 50% !important;
+    }
+}
 
 @media screen and (min-width: 1200px) {
 
